@@ -1,0 +1,89 @@
+
+body{
+  font-family: Arial, sans-serif;
+   background-color: #E0F2FE;
+   color: rgb(2, 18, 104);
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.intro {
+  font-size: 18px;
+  max-width: 800px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro_experience {
+  font-size: 18px;
+  max-width: 800px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.links-links {
+  display: flex;
+  text-decoration: none;
+  flex-direction: column;
+  align-items: center;
+  padding:0;
+  margin: 0;
+
+}
+
+.links-nav {
+  display: flex;
+   flex-direction: column;
+  align-items: center;
+  padding:0;
+  margin: 0;
+}
+
+.links-experience {
+  display: flex;
+   flex-direction: column;
+  align-items: center;
+  padding:0;
+  margin: 0;
+}
+
+.links-education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:0;
+  margin: 0;
+}
+
+.links-certifications {
+  display: flex;
+   flex-direction: column;
+  align-items: center;
+  padding:0;
+  margin: 0;
+}
+
+.links-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:0;
+  margin: 0;
+} 
+
+.btn {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #00D4FF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
