@@ -86,4 +86,11 @@ body{
   border: none;
   border-radius: 5px;
   cursor: pointer;
+
+  .under-construction {
+  font-size: 24px;        
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
 }
