@@ -1,8 +1,8 @@
 
 body{
   font-family: Arial, sans-serif;
-   background-color: #E0F2FE;
-   color: rgb(2, 18, 104);
+   background-color: #ECE5D2;
+   color: #553E53;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -80,8 +80,8 @@ body{
 .btn {
   font-family: Arial, sans-serif;
   font-size: 16px;
-  background-color: #00D4FF;
-  color: white;
+  background-color: #B6CBDE;
+  color: #553E53;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
