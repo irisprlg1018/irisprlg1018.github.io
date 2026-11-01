@@ -1,8 +1,8 @@
 
 body{
   font-family: Arial, sans-serif;
-   background-color: #ECE5D2;
-   color: #553E53;
+   background-color: #1F2937;
+   color: #dfdcde;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -88,7 +88,7 @@ body{
   cursor: pointer;
 
   .under-construction {
-  font-size: 24px;        
+  font-size: 30px;        
   text-align: center;
   font-weight: bold;
   letter-spacing: 0.5px;
