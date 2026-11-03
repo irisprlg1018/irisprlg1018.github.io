@@ -1,96 +1,87 @@
-
-body{
-  font-family: Arial, sans-serif;
-   background-color: #1F2937;
-   color: #dfdcde;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1f2937;
+  color: #dfdcde;
+  min-height: 100vh;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+/* Introduction */
 .intro {
   font-size: 18px;
   max-width: 800px;
+  margin: 20px auto;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  line-height: 1.6;
 }
 
 .intro_experience {
   font-size: 18px;
   max-width: 800px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto;
 }
 
-.links-links {
-  display: flex;
-  text-decoration: none;
-  flex-direction: column;
-  align-items: center;
-  padding:0;
-  margin: 0;
-
-}
-
-.links-nav {
-  display: flex;
-   flex-direction: column;
-  align-items: center;
-  padding:0;
-  margin: 0;
-}
-
-.links-experience {
-  display: flex;
-   flex-direction: column;
-  align-items: center;
-  padding:0;
-  margin: 0;
-}
-
-.links-education {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding:0;
-  margin: 0;
-}
-
-.links-certifications {
-  display: flex;
-   flex-direction: column;
-  align-items: center;
-  padding:0;
-  margin: 0;
-}
-
+/* Links and navigation */
+.links-links,
+.links-nav,
+.links-experience,
+.links-education,
+.links-certifications,
 .links-projects {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding:0;
-  margin: 0;
-} 
+  margin: 10px auto 20px;
+}
 
+ul {
+  list-style-position: inside;
+  padding: 0;
+}
+
+li {
+  margin: 8px 0;
+}
+
+a {
+  color: #b6cbde;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
 .btn {
   font-family: Arial, sans-serif;
   font-size: 16px;
-  background-color: #B6CBDE;
-  color: #553E53;
+  background-color: #b6cbde;
+  color: #553e53;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
 
-  .under-construction {
-  font-size: 30px;        
+/* Under construction */
+.under-construction {
+  font-size: 20px;
   text-align: center;
   font-weight: bold;
   letter-spacing: 0.5px;
-}
+  margin-top: 30px;
 }
